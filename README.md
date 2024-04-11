@@ -1,61 +1,46 @@
-# {{your-project-name}} based on proteus-runner
+# Origen.ai - Cloud Devops Engineer technical test (2024)
 
-Proposed structure for a worker. Put here your doc description
+![](https://www.origen.ai/uploads/Norne-Reservoir-Image-PINNs-Laptop-2-atT4.jpg)
 
-## First steps
+Great to see you here! If you are reading these lines, you are are just few steps away from becoming part of Origen.ai. We are excited to count on you to build Proteus, our cutting-edge AI engine that run physics Simulations 10,000x faster than traditional technology.
 
-1. Create your project
+**Deploying a Kubernetes Cluster on Azure using Terraform and Helm Charts**
 
-2. Link this project as a `template` remote and pull `dev` branch
+Your task is to use Terraform to set up a web application on Azure use a simple AKS cluster. The web application should include both frontend and backend components, along with a database.
 
-```
-git remote add template git@github.com:OriGenAI/proteus-runner.git 
-git pull template dev --allow-unrelated-histories
-```
+In order to be able to test and develop your solution, we recommend you to create an Azure free account, which comes with a $200 credit. We have done the test ourselves and we think this credit should be sufficient to finish the test without having to pay.
 
-Now on to update you only have to do
+**Application Details:**
+- The web application to deploy is defined in the Docker Compose file hosted at this location: [Docker Compose File](https://github.com/OriGenAI/cloud-engineer-test-sample-app/blob/master/docker-compose.yml). Please use this docker-compose file to understand the application you have to deploy.
+- The Docker Compose file specifies the services, networks, and volumes required for the application.
 
-```
-git pull template dev
-```
+**Requirements:**
 
+1. Sign up for an Azure free account at https://azure.microsoft.com/free/.
+2. Except for the frontend, which may use other Azure Cloud technologies, all the application components should be served from an AKS cluster.
+3. Once you have your Azure free account with the $200 credit, use Terraform to define the infrastructure resources and create an AKS cluster to host the application.
+4. Utilize Helm charts and Kubernetes manifests to deploy the web application (frontend, backend, and database) on the AKS cluster. Please include them in your test response file. Please include them in your test submission.
+5. Choose the appropriate deployment strategy for the web application components, considering factors like scalability, reliability, security, and performance.
+6. Make sure to use best practices for security and access control.
+7. If possible, integrate the Helm charts deployment into Terraform for seamless infrastructure provisioning.
 
-3. Setting the project terms
+**Note:**
 
-Edit `project.py` to fill in the addecuate project terms
+- You are free to select any suitable Azure resources, services, and configurations for the web application deployment.
+- Consider using other Azure resources to complement the web application deployment within the AKS cluster.
+- We are not measuring at all how long it takes you to develop your solution, so no need to rush. In any case, for your information, we believe that it takes approximately 4 to 5 hours to complete the test.
 
+**Evaluation Criteria:**
 
-4. All done
+- Your expertise in designing a scalable and reliable infrastructure using Terraform and Helm charts.
+- Implementation of best practices for security, access control, and resource management.
+- Logical decision-making skills for choosing appropriate deployment strategies and utilizing Azure resources effectively.
+- Creativity in architecting the solution based on application requirements and Azure capabilities.
+- Documentation quality and clarity of instructions on how to set up and run the Terraform deployment and Helm chart installations.
+- Any assumption or interpretation of the test text is correct as long as it makes sense. There is not a single way to implement a solution for it. In any case, feel free to contact us anytime if you need any help or guidance.
 
-Once created you can remove this section on the doc
+**Test Submission:**
 
-
-## Initial setup for {{your-project-name}}
-
-
-1. Install and setup enviroment
-
-```
-virtualenv -p3.8 venv
-source venv/bin/activate
-pip install -r requirements.txt
-pip install -r requirements/dev.txt
-pip install -e .
-pre-commit install
-```
-2. Optionally you can create basic dockerfiles and a update script
-```
-python setup.py docker
-```
-
-
-## Running de project
-
-first time:
-
-1. Copy and customize a `env.sh.template` to `env.sh`
-
-First and succesive times:
-
-2. Import it using `source env.sh`
-3. Run it: `run`
+- From the day the test is sent, we expect you to send us the solution as a link to a private github repo, a zip file or a tarball in 4 days, by the mean we used to send you the test in first place (most likely email).
+- Include a README file with brief instructions on how to set up and run the Terraform deployment and Helm chart installations.
+- Optionally, you can include a brief explanation of your design decisions and any challenges you encountered during the process.
