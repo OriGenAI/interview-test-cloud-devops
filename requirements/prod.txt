@@ -5,5 +5,5 @@ certifi==2019.11.28
 python_json_logger==2.0.1
 -r runner.txt
 requests==2.22.0
-cryptography==3.3.2
+cryptography==42.0.4
 pycryptodome==3.10.1
