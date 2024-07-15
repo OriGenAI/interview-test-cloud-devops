@@ -28,7 +28,7 @@ In order to be able to test and develop your solution, we recommend you to creat
 
 - You are free to select any suitable Azure resources, services, and configurations for the web application deployment.
 - Consider using other Azure resources to complement the web application deployment within the AKS cluster.
-- We are not measuring at all how long it takes you to develop your solution, so no need to rush. In any case, for your information, we believe that it takes approximately 4 to 5 hours to complete the test.
+- We are not measuring at all how long it takes you to develop your solution, so no need to rush. In any case, for your information, we believe that it takes approximately 4 to 5 hours to complete the test, you will have 72 natural hours to give us the proof.
 
 **Evaluation Criteria:**
 
