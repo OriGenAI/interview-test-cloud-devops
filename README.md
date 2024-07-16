@@ -41,6 +41,6 @@ In order to be able to test and develop your solution, we recommend you to creat
 
 **Test Submission:**
 
-- From the day the test is sent, we expect you to send us the solution as a link to a private github repo, a zip file or a tarball in 4 days, by the mean we used to send you the test in first place (most likely email).
+- From the day the test is sent, we expect you to send us the solution as a link to a private github repo, a zip file or a tarball in 72 hours, by the mean we used to send you the test in first place (most likely email).
 - Include a README file with brief instructions on how to set up and run the Terraform deployment and Helm chart installations.
 - Optionally, you can include a brief explanation of your design decisions and any challenges you encountered during the process.
