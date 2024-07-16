@@ -43,4 +43,5 @@ In order to be able to test and develop your solution, we recommend you to creat
 
 - From the day the test is sent, we expect you to send us the solution as a link to a private github repo, a zip file or a tarball in 72 hours, by the mean we used to send you the test in first place (most likely email).
 - Include a README file with brief instructions on how to set up and run the Terraform deployment and Helm chart installations.
+- IMPORTANT!: Please the repository has to be private and you should share with us to the following email addresses: rubentorrado@origen.ai, alberto@origen.ai, dionisio@origen.ai
 - Optionally, you can include a brief explanation of your design decisions and any challenges you encountered during the process.
